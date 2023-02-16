@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>Задача №6</h2>
+		<h4>З клавіатури вводиться номер дня тижня. Вивести на екран назву дня.</h4>
+		<script>
+		const numberDay = parseInt(prompt("Entre day number"))
+		const monday = 1
+		const tuesday = 2
+		const wednesday = 3
+		const thursday = 4
+		const friday = 5
+		const saturday = 6
+		const sunday = 7
+		if (numberDay == 1) {
+				document.write("Monday")
+		} else if (numberDay == 2) {
+				document.write("Tuesday")
+		} else if (numberDay == 3) {
+				document.write("Wednesday")
+		} else if (numberDay == 4) {
+				document.write("Thursday")
+		} else if (numberDay == 5) {
+				document.write("Friday")
+		} else if (numberDay == 6) {
+				document.write("Saturday")
+		} else if (numberDay == 7) {
+				document.write("Sunday")
+		} else {
+				document.write("You need to enter a number from 1 to 7")
+		}
+	</script>
+	</body>
+</html>

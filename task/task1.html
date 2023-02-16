@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h2>Задача №1</h2>
+	<script>
+		//1 вывожу даные
+		let firstChildName = prompt('Name first children')
+		let numberFirstCandy = parseInt(prompt(`Number of candyes ${firstChildName}`,'0'))
+		let secondChildName = prompt('Name second children')
+		let numberSecondCandy = parseInt(prompt(`Number of candyes ${secondChildName}`,'0'))
+
+		//2 вычесляею
+		if (numberFirstCandy > numberSecondCandy) {
+			document.write(`<h1>${firstChildName} has ${numberFirstCandy} condy</h1>`)
+		} else if (numberSecondCandy > numberFirstCandy) {
+			document.write(`<h1>${secondChildName} has ${numberSecondCandy} condy</h1>`)
+		} else if (numberFirstCandy === numberSecondCandy) {
+			document.write(`<h1>${firstChildName} end ${secondChildName} have the same condy</h1>`)
+		} else {
+			document.write(`<h1>Data is not corect`)
+		}
+	</script>
+</body>
+</html>

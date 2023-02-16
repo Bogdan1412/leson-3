@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>Задача №4</h2>
+		<h4>З клавіатури вводиться вік людини. Вивести на екран ким він є (дитиною у садочку, школярем, студентом, працівником, пенсіонером).</h4>
+		<script>
+		  // узнаем возраст человека
+			let humanAge = parseInt(prompt("How old arr you?"))
+			// создаю условие
+		if (humanAge < 7) {
+				document.write("Child")
+		} else if (humanAge < 17) {
+				document.write("Seenager")
+		} else if (humanAge < 21) {
+				document.write("Student")
+		} else if (humanAge < 60) {
+				document.write("Bdult")
+		} else {
+				document.write("Old age")
+		}
+	</script>
+	</body>
+</html>

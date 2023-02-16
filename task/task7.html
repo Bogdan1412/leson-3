@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h2>Задача №7</h2>
+	<h4>З клавіатури вводиться номер місяця. Вивести до якої пори він відноситься</h4>
+	<script>
+let season = parseInt(prompt("Entre month number"))
+if (season == 12 || season == 1 || season == 2) {
+    document.write("Winter")
+} else if (season == 3 || season == 4 || season == 5) {
+    document.write("Spring")
+} else if (season == 6 || season == 7 || season == 8) {
+    document.write("Summer")
+} else if (season == 9 || season == 10 || season == 11) {
+    document.write("Autumn")
+} else {
+    document.write("You need to enter a number from 1 to 12")
+}
+	</script>
+</body>
+</html>
